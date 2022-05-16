@@ -16,6 +16,7 @@ Muestra el uso de:
     <li>Uso de condicionales</li>
     <li>Ciclos</li>
     <li>fflush</li>
+    <li>Funciones</li>
     <li>Comentarios para la documentación interna del programa</li>
     </ul>
     </p>
