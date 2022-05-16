@@ -1,21 +1,22 @@
-/* Autor: Andriks Imanol Ruiz M醨tinez, Realizado: 04/04/2022
-Escuela: Universidad del Valle de M閤ico Campus Villahermosa
-Materia: Programaci髇 Estructurada
+/* Autor: Andriks Imanol Ruiz M谩rtinez, Realizado: 04/04/2022
+Escuela: Universidad del Valle de M茅xico Campus Villahermosa
+Materia: Programaci贸n Estructurada
 Ciclo: 01/2022
 
-Este es un programa en Lenguaje C de la materia de Programaci髇 Estructurada
+Este es un programa en Lenguaje C de la materia de Programaci贸n Estructurada
 Muestra el uso de:
  
     -Variables enteras, flotantes y en cadena
     -printf para mostrar mensajes y variables
     -fgets
     -scanf
-    -El uso de include para las librer韆s
-    -Librer韆s de la funci髇 string.h
+    -El uso de include para las librer铆as
+    -Librer铆as de la funci贸n string.h
     -Uso de condicionales
     -Ciclos
+    -Funciones
     -flush
-    -Comentarios para la documentaci髇 interna del programa
+    -Comentarios para la documentaci贸n interna del programa
 */
 #include<stdio.h>
 #include<string.h>
@@ -31,7 +32,7 @@ float leerf(char *mensaje, float inferior, float superior);
 int leerd(char *mensaje, int inferior, int superior);
 //main
 int main() {
-	//Declaraci髇
+	//Declaraci贸n
 	struct alumno a1, a2;
 	//Proceso
 	leers("Introduce el nombre: ", a1.nombre,30);
